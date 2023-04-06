@@ -3,6 +3,7 @@ import Layout from "./components/Layout/Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contacts from "./pages/Contacts";
+import Delivery from "./pages/Delivery";
 
 export default function App(){
   return (
@@ -12,6 +13,7 @@ export default function App(){
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} /> 
         <Route path="/Contacts" element={<Contacts/>} />
+        <Route path="/Delivery" element={<Delivery/>} />
       </Routes>
     </Layout>
 
