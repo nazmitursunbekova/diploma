@@ -1,27 +1,27 @@
 .Layout {
-  max-width: 900px;
+  max-width: 1500px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
-.Layout header{
-  flex-basis:100%;
+.Layout header {
+  flex-basis: 100%;
   flex-grow: 0;
   flex-shrink: 0;
-
   background-color: darkcyan;
 }
 .Layout aside {
   flex: 20% 0 0;
   background-color: rgb(39, 98, 206);
 }
-.Layout main{
+.Layout main {
   flex: 80% 1 1;
   background-color: lightseagreen;
 }
-.Layout footer{
+.Layout footer {
   flex: 100% 0 0;
   background-color: rgb(14, 221, 14);
 }
