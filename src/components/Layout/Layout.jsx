@@ -1,3 +1,6 @@
+import Category from "../../pages/Category";
+import CategoryList from "../CategoryList/CategoryList";
+import Logo from "../Logo/Logo";
 import  Nav from "../Nav/Nav";
 import "./Layout.css";
 
@@ -6,10 +9,11 @@ import "./Layout.css";
   return(
     <div className="Layout">
       <header>
+        <Logo />
         <Nav/>
       </header>
       <aside>
-        ASIDE
+        <CategoryList />
       </aside>
       <main>
         {props.children}
