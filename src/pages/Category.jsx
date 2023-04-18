@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { useMatch } from "react-router-dom"
 import { AppContext } from "../App";
+import ProductsList from "../components/ProductList/ProductList";
 
 
 
@@ -18,7 +19,8 @@ export default function Category(){
 
   return(
   <div className="Category">
-    <h1>Category</h1>
+    <h1> {category? category.name: "Loading..." }</h1>
+    <ProductsList category={category}/>
   </div>
 )
 }
