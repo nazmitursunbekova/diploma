@@ -1,28 +1,31 @@
 import { useContext } from "react";
 import { useMatch } from "react-router-dom"
 import { AppContext } from "../App";
-import ProductsList from "../components/ProductList/ProductList";
+import ProductList from "../components/ProductList/ProductList";
 import NotFound from "./NotFound";
 
 
-
-export default function Category(){
-  //деструктизация
-  const {params}=useMatch("/category/:path");
-  const {categories}=useContext(AppContext);
+export default function Category() {
+  //деструктизация {...}
+  const { params } = useMatch("/category/:path");
+  const { categories } = useContext(AppContext);
 
 
   const category = categories.find(
-    category =>params.path === category.path
+    category => params.path === category.path
   );
+  // полная версия
 
-if{!category}
-return<NotFound/>
+if (!category) {
+  return <NotFound />
+}
 
-  return(
-  <div className="Category">
-    <h1> {category? category.name: "Loading..." }</h1>
-    <ProductsList category={category}/>
-  </div>
-)
+
+  return (
+    <div className="Category">
+      <h1>{category ? category.name : "Loading..."} </h1>
+      <ProductList category={category} />
+
+    </div>
+  )
 }

@@ -10,12 +10,12 @@ export default function ProductList({category}) {
   const output = products
   .filter(product => product.category === category.id)
   .map((product) => (
-    <div className="Product" key={produ.id}>
+    <div className="Product" key={product.id}>
       <img src={product.picture} alt={product.name} />
       <Link to={"/product/" + product.path}>{product.name}</Link>
 
       <span>{product.price}</span>
-      AddToCart product = {product}
+      <AddToCart product={product}/>
       
     </div>
   ));

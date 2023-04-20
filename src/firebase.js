@@ -1,6 +1,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection } from "firebase/firestore";
+import { GoogleAuthProvider, getAuth, signInWithCredential, signOut} from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -15,7 +16,13 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
+const auth = getAuth(app);
 
 //получить список категорий (коллекция документов)
 export const categoryCollection = collection(db, "categories");
 export const productCollection = collection(db,'products')
+export const orderCollection = collection(db,'orders')
+const provider = new GoogleAuthProvider()
+export const logIn = () => signInWithCredential(auth,provider);
+export const logOut = () =>signOut(auth);
+export const onAuthChange = (callback) =>onAuthChange(auth,callback)
