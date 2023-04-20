@@ -1,4 +1,5 @@
 import Category from "../../pages/Category";
+import CartLink from "../CartLInk/CartLink";
 import CategoryList from "../CategoryList/CategoryList";
 import Logo from "../Logo/Logo";
 import  Nav from "../Nav/Nav";
@@ -11,6 +12,7 @@ import "./Layout.css";
       <header>
         <Logo />
         <Nav/>
+        <CartLink/>
       </header>
       <aside>
         <CategoryList />

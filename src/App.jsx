@@ -8,16 +8,29 @@ import Category from "./pages/Category";
 import { createContext, useEffect, useState } from "react";
 import { getDocs } from "firebase/firestore";
 import { categoryCollection, productCollection } from "./firebase";
+import Cart from "./pages/Cart";
+import NotFound from "./pages/NotFound";
+import Product from "./pages/Product";
 
 export const AppContext = createContext({
   categories: [],
   products: [],
+  //корзина
+  cart:{},
+  setCart:() =>{}
 });
 export default function App() {
   const [categories, setCategories] = useState([]);
   const [products, setProducts] = useState([]);
-
+//корзина
+const [cart, setCart]=useState({})
+return JSON.parge(localStorage.getItem("cart"))
   useEffect(() => {
+    localStorage.setItem("card, JSON.stringify(cart")
+
+
+
+    useEffect(() => {
     getDocs(categoryCollection).then((snapshot) => {
       const newCategories = [];
       snapshot.docs.forEach((doc) => {
@@ -42,7 +55,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <AppContext.Provider value={{ categories, products }}>
+      <AppContext.Provider value={{ categories, products , cart, setCart }}>
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -50,9 +63,13 @@ export default function App() {
             <Route path="/Contacts" element={<Contacts />} />
             <Route path="/Delivery" element={<Delivery />} />
             <Route path="/category/:path" element={<Category />} />
+          
+          <Route path="/cart" element={<Cart/>}/>
+          <Route  path="*"   element={<NotFound/>}/>
+          <Route path="/product/:path" element={<Product/>} />
           </Routes>
         </Layout>
       </AppContext.Provider>
     </div>
   );
-}
+  }
