@@ -1,5 +1,5 @@
 import { addDoc } from "firebase/firestore";
-import "./OrderForm.css";
+import "./OrderFrom.css";
 import { orderCollection } from "../../firebase";
 import { useContext } from "react";
 import { AppContext } from "../../App";
@@ -25,7 +25,7 @@ export default function OrderForm() {
       // очистить корзину
       setCart({});
       // отправить пользователя на главную страницу
-      navigate("/");
+      navigate("/thank-you");
     });
   }
 

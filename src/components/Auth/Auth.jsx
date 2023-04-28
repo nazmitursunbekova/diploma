@@ -22,8 +22,5 @@ export default function Auth() {
     );
   }
 
-  return
-   <div className="Auth">
-    {output}
-    </div>;
+  return <div className="Auth">{output}</div>
 }
