@@ -53,8 +53,10 @@ export default function App() {
 
   return (
     <div className="App">
+           
       <AppContext.Provider value={{ categories, products, cart, setCart, user, orders }}>
         <Layout>
+    
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<h2>About</h2>} />

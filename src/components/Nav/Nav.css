@@ -1,14 +1,15 @@
 .Nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 20px;
+  padding: 10px;
   
 }
   
 
  .Nav li {
   float: left;
-  left: 150px;
+  margin-left: 50px;
+  margin-right: 5px;
 }
 
 .Nav li a {
@@ -19,6 +20,7 @@
   text-decoration: none;
   border-radius: 50%;
   
+
 }
 
 .Nav li a:hover {
