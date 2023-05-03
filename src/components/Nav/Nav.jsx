@@ -6,10 +6,10 @@ import "./Nav.css";
   return(
     <nav className="Nav">
       <ul>
-      <li><NavLink to="/">Home</NavLink></li>
-      <li><NavLink to="/about">About</NavLink></li>
-      <li><NavLink to="/contacts">Contacts</NavLink></li>
-      <li><NavLink to="/delivery">Delivery</NavLink></li>
+      <li><NavLink to="/">HOME</NavLink></li>
+      <li><NavLink to="/about">ABOUT</NavLink></li>
+      <li><NavLink to="/contacts">CONTACTS</NavLink></li>
+      <li><NavLink to="/delivery">DELIVERY</NavLink></li>
       </ul>
     </nav>
   );
