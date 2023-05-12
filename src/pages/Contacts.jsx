@@ -1,8 +1,25 @@
-export default function Contacts(){
+export default function Contacts() {
   return (
     <div className="Contacts">
-      <h1>BOOK</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente deleniti, sequi ex eos rerum consequatur ullam itaque illum aliquid iure nisi perferendis nemo magni numquam animi dicta reiciendis? Distinctio, omnis.</p>
+      <h1>HOUSEHOLD APPLIANCES SHOP</h1>
+      <div className="Tech">
+        <div className="Col-3">
+          Our contacts: 
+          +996 705 22 36 18<br />
+          +996 555 22 36 18<br />
+          +996 707 22 36 18<br />
+          +996 708 22 36 18<br />
+        </div>
+      </div>
+      <p>
+        <strong> Our adress : </strong> Bishkek{" "}
+      </p>
+      <p>
+        <strong>Our email : </strong>brand_name @gmail.com{" "}
+      </p>
+      <p>
+        we work from <strong> 8 a.m </strong>to <strong>12 p.m</strong>{" "}
+      </p>
     </div>
   );
 }
