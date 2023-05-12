@@ -2,40 +2,34 @@ import Category from "../../pages/Category";
 import CartLink from "../CartLink/CartLink";
 import CategoryList from "../CategoryList/CategoryList";
 import Logo from "../Logo/Logo";
-import  Nav from "../Nav/Nav";
+import Nav from "../Nav/Nav";
 import "./Layout.css";
 import Auth from "../Auth/Auth";
 import NavToggle from "../NavToggle/NavToggle";
 import Drawer from "../Drawer/Drawer";
 import { useState } from "react";
 
-
- export default function Layout(props){
+export default function Layout(props) {
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   function toggleDrawer() {
     setDrawerOpen(!drawerOpen);
   }
-  return(
+  return (
     <div className="Layout">
       <header>
         <Logo />
-        <Nav/>
-        <NavToggle callback={toggleDrawer}/>
-        <Drawer open={drawerOpen} toggle={toggleDrawer}/>
-        <CartLink/>
+        <Nav />
+        <NavToggle callback={toggleDrawer} />
+        <Drawer open={drawerOpen} toggle={toggleDrawer} />
+        <CartLink />
         <Auth />
-
       </header>
       <aside>
         <CategoryList />
       </aside>
-      <main>
-        {props.children}
-      </main>
-      <footer>
-        FOOTER
-      </footer>
+      <main>{props.children}</main>
+      <footer>FOOTER</footer>
     </div>
   );
- }
+}
