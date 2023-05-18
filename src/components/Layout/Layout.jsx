@@ -1,35 +1,37 @@
-import Category from "../../pages/Category";
-import CartLink from "../CartLink/CartLink";
-import CategoryList from "../CategoryList/CategoryList";
-import Logo from "../Logo/Logo";
-import Nav from "../Nav/Nav";
-import "./Layout.css";
-import Auth from "../Auth/Auth";
-import NavToggle from "../NavToggle/NavToggle";
-import Drawer from "../Drawer/Drawer";
 import { useState } from "react";
+import Auth from "../Auth/Auth";
+import CartLink from "../CartLink/CartLink";
+import Drawer from "../Drawer/Drawer";
 
+import Nav from "../Nav/Nav";
+import NavToggle from "../NavToggle/NavToggle";
+import "./Layout.css";
+import Logo from "../Logo/Logo";
+import Footer from "../Footer/Footer";
 export default function Layout(props) {
-  const [drawerOpen, setDrawerOpen] = useState(false);
+    const [drawerOpen, setDrawerOpen] = useState(false);
+    function toggleDrawer() {
+        setDrawerOpen(!drawerOpen);
+    }
 
-  function toggleDrawer() {
-    setDrawerOpen(!drawerOpen);
-  }
-  return (
-    <div className="Layout">
-      <header>
-        <Logo />
-        <Nav />
-        <NavToggle callback={toggleDrawer} />
-        <Drawer open={drawerOpen} toggle={toggleDrawer} />
-        <CartLink />
-        <Auth />
-      </header>
-      <aside>
-        <CategoryList />
-      </aside>
-      <main>{props.children}</main>
-      <footer>FOOTER</footer>
-    </div>
-  );
+    return (
+        <div className="Layout">
+            <header>
+                <Logo />
+                <Nav />
+                <NavToggle callback={toggleDrawer} />
+                <Drawer open={drawerOpen} toggle={toggleDrawer} />
+                <div className="Logo-cart">
+                    <CartLink />
+                    <Auth />
+                </div>
+            </header>
+            <main>
+                {props.children}
+            </main>
+            <footer>
+                <Footer />
+            </footer>
+        </div>
+    )
 }
