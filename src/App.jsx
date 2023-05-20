@@ -1,7 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import Home from "./pages/Home";
+import Contacts from "./pages/Contacts";
+import Delivery from "./pages/Delivery";
 import Category from "./pages/Category";
+import About from "./pages/About";
 import { createContext, useEffect, useState } from "react";
 
 import { onAuthChange, onCategoriesLoad, onOrdersLoad, onProductsLoad } from "./firebase";
@@ -10,6 +13,8 @@ import NotFound from "./pages/NotFound";
 import Product from "./pages/Product";
 import ThankYou from "./pages/ThankYou";
 import Orders from "./pages/Orders";
+
+
 
 export const AppContext = createContext({
   categories: [],
@@ -59,7 +64,9 @@ export default function App() {
     
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<h2>About</h2>} />
+            <Route path="/contacts" element={< Contacts/>} />
+            <Route path="/delivery" element={<Delivery/>} />
+            <Route path="/about" element={<About />} />
             <Route path="/category/:path" element={<Category />} />
             <Route path="/product/:path" element={<Product />} />
             <Route path="/cart" element={<Cart />} />
