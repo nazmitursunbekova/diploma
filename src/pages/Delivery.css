@@ -1,0 +1,120 @@
+.Delivery .Row {
+  display: flex;
+  padding-right: 25px;
+}
+
+.Delivery h1 {
+  text-align: center;
+  color: black;
+  margin-bottom: 45px;
+  margin-top: 30px;
+}
+
+.Delivery h2 {
+  text-align: center;
+  color: black;
+  margin-bottom: 45px;
+  margin-top: 30px;
+}
+.Delivery h3 {
+  text-align: center;
+  color: black;
+  margin-bottom: 45px;
+  margin-top: 30px;
+}
+.Delivery .Col-4 {
+
+  border-radius: 3px;
+  text-align: center;
+  margin-bottom: 25px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.Delivery .Col-4 p {
+  margin: 25px;
+  color: black;
+  font-size: 25px;
+  padding-bottom: 45px;
+}
+
+.Delivery .Col-4 h1 {
+  color: black;
+  text-align: center;
+ 
+}
+
+.Delivery .First {
+  border: 2px solid black;
+  margin: 25px;
+  border-radius: 0px;
+
+  background-color: white;
+  transition: 0.5s;
+}
+
+.Delivery .First:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px 1px black;
+}
+
+.AboutDelivery p {
+  font-size: 18px;
+  margin-top: 25px;
+  margin-left: 35px;
+  color: black;
+  line-height: 45px;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+
+.HaveNiceDay {
+  text-align: center;
+  margin-top: 25px;
+  margin-left: -50px;
+  font-size: 20px;
+  font-weight: 700;
+
+}
+
+@media screen and (max-width: 680px) {
+  .Delivery h1 {
+    text-align: center;
+    color: black;
+    font-size: 17px;
+  }
+
+  .Delivery .Col-4 p {
+    margin: 5px;
+    color: black;
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+
+  .AboutDelivery  {
+    font-size: 12px;
+    margin-top: 25px;
+    margin-left: 35px;
+    color: black;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .HaveNiceDay {
+    text-align: center;
+    margin-top: 25px;
+    margin-left: -50px;
+    font-size: 10px;
+    font-weight: 700;
+
+  }
+  .Delivery .Col-4 {
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+}

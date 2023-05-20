@@ -1,11 +1,50 @@
-export default function Delivery(){
+import "./Delivery.css"
+
+export default function Delivery() {
   return (
     <div className="Delivery">
-      <h1>Shop</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente deleniti, sequi ex eos rerum consequatur ullam itaque illum aliquid iure nisi perferendis nemo magni numquam animi dicta reiciendis? Distinctio, omnis.
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed sint ab, culpa molestias quam repellendus rerum natus laboriosam harum, recusandae error vero incidunt provident, maiores ea corrupti nam eveniet totam?
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur ipsum modi illo laboriosam, tenetur rem repellendus corporis, est dicta, excepturi delectus! Quasi itaque assumenda atque alias ipsam exercitationem accusamus aliquam!
-      </p>
+      <h1>Payment and delivery</h1>
+      <h2>ORDERING An order can be placed in several ways.</h2>
+      <div className="Row">
+        <div className="Col-4">
+          <div className="First">
+         
+            <p>
+              On the site: Select a product and add it to your shopping cart by
+              pressing the "Add to Cart" button next to the
+              product.
+            </p>
+          </div>
+        </div>
+        <div className="Col-4">
+          <div className="First">
+            <p>
+              Go to the shopping cart in the top right corner of the site. Press
+              the "Checkout" button. Enter your name, phone number, and delivery
+              address (optional address if needed)
+            </p>
+          </div>
+        </div>
+        <div className="Col-4">
+          <div className="First">
+            <p>
+              Select a Payment Method. Choose a shipping method. Press the
+              "Confirm order" button and wait for the operator's call (up to 15
+              minutes)
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="AboutDelivery">
+        <p>
+          Once you have met all three points, you can expect your order <br />
+          Delivery is carried out during the day in the city and during the week
+          in other regions <br />
+          
+        </p>
+        <div className="HaveNiceDay"> HAVE A NICE DAYI!</div>
+        <h3>THANKS FOR CHOOSING US!</h3>
+      </div>
     </div>
   );
 }

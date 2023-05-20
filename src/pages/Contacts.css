@@ -1,0 +1,18 @@
+.Contacts h1{
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.Contacts>.Tech{
+  font-size: 25px;
+  font-family:  'Times New Roman', Times, serif;
+  font-weight: 900;
+}
+.Contacts p{
+  font-size: 25px;
+  font-family:  'Times New Roman', Times, serif;
+  font-weight: 900 
+}
+.Contacts .Techn img{
+  
+}
