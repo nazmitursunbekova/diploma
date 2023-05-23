@@ -4,31 +4,16 @@ export default function Home() {
     <div className="Home">
       <h1>TECHNOLOGY AND INNAVATION</h1>
 
-      <div class="Wrapper">
-        <div class="image-slider swiper-container">
-        <div class="image-slider wrapper swiper-container">
-           <div class="image-slider__slide        swiper-slide">
-            <div class="image-slider__image">
-              <img src="https://nazmi-tursunbekova.netlify.app/cook.jpg" />
-          </div> 
-          </div>
-          <div class="image-slider__slide        swiper-slide">
-            <div class="image-slider__image">
-<img src="https://i.pinimg.com/564x/c8/48/4e/c8484e9943a7ca9c118b7878a37997b3.jpg"/>
-          </div> 
-          </div>
-        
-          <div class="image-slider__slide        swiper-slide">
-            <div class="image-slider__image">
-            <img src="https://i.pinimg.com/564x/a4/ae/65/a4ae6576cb210932f312450fb4b0b907.jpg" />
-          </div> 
-          </div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-pagination"></div>
-        
+   
+  
           
-      </div>
+    
+<img src="https://i.pinimg.com/564x/c8/48/4e/c8484e9943a7ca9c118b7878a37997b3.jpg"/>
+          
+        
+            <img src="https://i.pinimg.com/564x/a4/ae/65/a4ae6576cb210932f312450fb4b0b907.jpg" />
+         
+    
       <h2>
         The technologies of the future are developments that pursue a specific
         goal. This is a race track with motorcycles equipped with sensors that
@@ -49,7 +34,6 @@ export default function Home() {
         today.
       </h4>
     </div>
-    </div>
-    </div>
+   
   );
 }
