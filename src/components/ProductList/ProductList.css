@@ -16,8 +16,11 @@
 }
 
 .ProductList .Product img {
-  width: 170px;
-}
+ 
+    width: 100%;
+    height: 60%;
+  }
+
 
 .ProductList .Product img:hover {
  
