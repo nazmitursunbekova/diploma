@@ -4,16 +4,11 @@ export default function Home() {
     <div className="Home">
       <h1>TECHNOLOGY AND INNAVATION</h1>
 
-   
-  
-          
-    
-<img src="https://i.pinimg.com/564x/c8/48/4e/c8484e9943a7ca9c118b7878a37997b3.jpg"/>
-          
-        
-            <img src="https://i.pinimg.com/564x/a4/ae/65/a4ae6576cb210932f312450fb4b0b907.jpg" />
-         
-    
+      <img src="https://i.pinimg.com/564x/72/03/fa/7203fafbacb23952835d189df951d8a9.jpg" />
+      <img src="https://i.pinimg.com/564x/63/95/11/6395113254ad8c09de654648c435073d.jpg" />
+      <img src="https://i.pinimg.com/564x/1f/e0/6c/1fe06c2a8ac93a206f1c6cf79270e1e0.jpg" />
+      <img src="https://i.pinimg.com/564x/60/6d/fd/606dfd69e43c596590497fa650b07671.jpg" />
+
       <h2>
         The technologies of the future are developments that pursue a specific
         goal. This is a race track with motorcycles equipped with sensors that
@@ -34,6 +29,5 @@ export default function Home() {
         today.
       </h4>
     </div>
-   
   );
 }
