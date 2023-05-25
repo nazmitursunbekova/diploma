@@ -3,8 +3,9 @@ import "./Contacts.css";
 export default function Contacts() {
   return (
     <div className="Contacts">
+      <div className="Apple">
       <img src="https://i.pinimg.com/564x/ca/27/57/ca2757320c646f22fa23fd63aa17131b.jpg" />
-
+      </div>
       <div class="centered">
         <h1>
           HOUSEHOLD <br></br> APPLIANCES <br></br> SHOP
