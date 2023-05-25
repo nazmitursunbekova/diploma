@@ -10,6 +10,7 @@ export default function Contacts() {
         <h1>
           HOUSEHOLD <br></br> APPLIANCES <br></br> SHOP
         </h1>
+        <h2>KYRGYZSTAN KARAKOL st TOKTOGUL 125A</h2>
         <h3>
           Our contacts: <br />
           <a
