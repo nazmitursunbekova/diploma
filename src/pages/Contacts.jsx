@@ -4,7 +4,7 @@ export default function Contacts() {
   return (
     <div className="Contacts">
            <img src="https://i.pinimg.com/564x/ca/27/57/ca2757320c646f22fa23fd63aa17131b.jpg"/>
-           <img src="https://i.pinimg.com/564x/97/ec/6d/97ec6dc4f9456e21d4ce8b61e3b67eee.jpg" alt="" srcset="" />
+           
       <div class="centered">
         <h1>HOUSEHOLD  <br></br> APPLIANCES <br></br> SHOP
         </h1>
