@@ -1,8 +1,41 @@
 .CartList {
-  display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  color: white;
 }
-
-.CartList .CartItem img {
-  width: 50px;
+.CartList .CartItem {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+}
+.CartList .CartItem .Product_picture {
+  width: 130px;
+  height: 190px;
+  border-radius: 3px;
+  border: 1px solid grey;
+}
+.CategoryList ul a:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.CategoryList img:hover {
+  transform: scale(0.9);
+}
+.CartList .CartItem .Product_name {
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
+  width: 10%;
+}
+.CartList input {
+  padding: 10px;
+  width: 15%;
+  font-weight: 700;
+}
+.CartList .Product_price {
+  font-size: 18px;
+}
+.CartList .Delete_icon {
+  max-width: 35px;
+  border-color: white;
 }
