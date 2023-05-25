@@ -29,8 +29,8 @@ export default function Delivery() {
               <img src="https://i.pinimg.com/564x/a0/49/84/a049845050c5e60f407604c88705b8e7.jpg" />
             </div>
           </div>
-          </div>
-          <div className="HaveNiceDay"> HAVE A NICE DAYI!</div>
+       </div>
+          <h4> HAVE A NICE DAYI!</h4>
           <h3>THANKS FOR CHOOSING US!</h3>
         </div>
       </div>
