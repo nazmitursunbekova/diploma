@@ -7,22 +7,16 @@ export default function CartList() {
 
   const productIds = Object.keys(cart);
   const output = products
-    .filter(product => productIds.includes(product.id))
-    .map(product => (
+    .filter((product) => productIds.includes(product.id))
+    .map((product) => (
       <div className="CartItem">
         <img src={product.picture} alt={product.name} />
-        <Link to={"/product/" + product.slug}>
-          {product.name}
-        </Link>
-        
+        <Link to={"/product/" + product.slug}>{product.name}</Link>
+
         <span>{cart[product.id]} items</span>
         <span>{product.price * cart[product.id]} som</span>
       </div>
     ));
 
-  return (
-    <div className="CartList">
-      {output}
-    </div>
-  )
+  return <div className="CartList">{output}</div>;
 }
