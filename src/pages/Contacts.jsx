@@ -3,11 +3,12 @@ import "./Contacts.css";
 export default function Contacts() {
   return (
     <div className="Contacts">
-      <h1>HOUSEHOLD APPLIANCES SHOP</h1>
+           <img src="https://i.pinimg.com/564x/21/ec/bd/21ecbde5ad69055a5874016294faff9f.jpg"/>
+      <div class="centered">HOUSEHOLD APPLIANCES SHOP</div>
+
       <div className="Techn">
         <div className="col-6">
  
-          <img src="https://i.pinimg.com/564x/21/ec/bd/21ecbde5ad69055a5874016294faff9f.jpg"/>
         </div>
       </div>
 
