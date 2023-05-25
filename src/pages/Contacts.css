@@ -11,18 +11,38 @@
 
 }
 .Contacts .Techn img{
-width: 60%;
+width: 120%;
 border-radius: 10%;
 
 
 }
-.Contacts .centered{
+.Contacts .centered h1 {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 40%;
   transform: translate(-50%, -50%);
-  font-size: 40px;
+  font-size: 60px;
   text-align: right;
   font-family: 'Times New Roman', Times, serif;
-  color: ghostwhite;
+  color: black;
+  font-weight: 900;
+  
+
+}
+.Contacts .centered h3 {
+  position: absolute;
+  top: 85%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  text-align: right;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-weight: 400;
+  
+
+}
+.Contacts .centered h3 a{
+  color: black;
+  left:300px;
 }
