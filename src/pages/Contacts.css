@@ -4,6 +4,7 @@
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
   margin-left:120px ;
+  height: 50px;
  
 }
 .Contacts>.Techn{
@@ -18,11 +19,8 @@
 
 }
 .Contacts .Techn img{
-  left: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  top: auto;
-  z-index: inherit;
+width: 60%;
+border-radius: 10%;
+
 
 }
