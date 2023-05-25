@@ -3,35 +3,31 @@
   height: 100%;
   width: 100%;
   padding: 20px 0;
-font-size: 23px;
-font-family: 'Times New Roman', Times, serif;
+  font-size: 23px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .footer-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  
 }
 
 .footer-column {
   flex-basis: 25%;
   margin-bottom: 40px;
   text-align: center;
-
-
 }
 
 .footer-column a {
   text-decoration: none;
-  color:black;
+  color: black;
   transition: 0.5s;
 }
 
 .footer-column a:hover {
   color: #333;
 }
-
 
 .footer-heading {
   margin-bottom: 20px;
@@ -42,26 +38,25 @@ font-family: 'Times New Roman', Times, serif;
   list-style-type: none;
   padding: 0;
   margin: 0;
-
 }
 
 .footer-list li {
   margin-bottom: 10px;
   font-size: 15px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 20px;
 }
 
 .network-icons {
   display: flex;
   justify-content: space-around;
- 
 }
 
 .network-icons .bi {
   width: 40px;
-  height: 40px;
+  color: black;
 
+  height: 40px;
 }
 
 .footer-list li:hover {
