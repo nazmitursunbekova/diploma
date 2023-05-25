@@ -9,3 +9,29 @@
   display: flex;
   align-items: center;
 }
+
+
+.Auth .SignIn {
+  display: flex;
+  flex-direction: column;
+
+}
+.Auth .SignIn a {
+  text-decoration: none;
+  color: black;
+}
+.Auth .SignOut {
+  display: flex;
+  flex-direction: column;
+}
+
+.Auth .SignOut .User {
+  color: black;
+  text-align: center;
+}
+.Auth_link {
+text-decoration: none;
+}
+.Auth button{
+  margin-left : -50px;
+}
