@@ -3,6 +3,7 @@
   padding-right: 25px;
 }
 
+
 .Delivery h1 {
   text-align: center;
   color: black;
@@ -22,7 +23,7 @@
   margin-bottom: 45px;
   margin-top: 30px;
 }
-.Delivery .Col-4 {
+.Delivery .Col-6 {
 
   border-radius: 3px;
   text-align: center;
@@ -32,17 +33,15 @@
   font-size: 25px;
 }
 
-.Delivery .Col-4 p {
+.Delivery .Col-6 p {
   margin: 25px;
   color: black;
   font-size: 25px;
   padding-bottom: 45px;
 }
 
-.Delivery .Col-4 h1 {
-  color: black;
-  text-align: center;
- 
+.Delivery .Col-6 img{
+  width: 550px
 }
 
 .Delivery .First {
