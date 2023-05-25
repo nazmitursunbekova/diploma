@@ -1,0 +1,9 @@
+.CartLink img {
+  width:35%;
+  margin-left: 250px;
+}
+.CartLink a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
