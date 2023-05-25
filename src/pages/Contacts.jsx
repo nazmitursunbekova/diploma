@@ -40,7 +40,8 @@ export default function Contacts() {
         </div>
         <div className="Cook">
         <img src="https://i.pinimg.com/564x/0d/86/0c/0d860c602c81beb7ffe36c9700f4cc38.jpg" />
-        
+        <img src="https://i.pinimg.com/564x/75/39/bc/7539bc2b1291c96a25e1d9903c8bceac.jpg"  />
+      
         </div>
          <div className="map">
         <iframe
