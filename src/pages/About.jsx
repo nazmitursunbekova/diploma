@@ -1,9 +1,16 @@
-import "./About.css";
+ import "./About.css";
 
 export default function About() {
   return (
     <div className="About">
       <h1>BRAND NAME</h1>
+      <div className="Cook">
+    
+        <img src="https://i.pinimg.com/564x/0d/86/0c/0d860c602c81beb7ffe36c9700f4cc38.jpg" />
+        <img src="https://i.pinimg.com/564x/75/39/bc/7539bc2b1291c96a25e1d9903c8bceac.jpg" />
+        <img src="https://i.pinimg.com/564x/77/5a/ea/775aeaa094dc3809a66a819c35d5b9a8.jpg" />
+    
+      </div>
       <div className="Row">
         <div className="Col-6">
           <h2>BRAND NAME - is one of the best brands in the world, offering all
