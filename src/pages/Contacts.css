@@ -10,8 +10,8 @@
   font-weight: 900;
 
 }
-.Contacts .Techn img{
-width: 120%;
+.Contacts  img{
+width: 50%;
 border-radius: 10%;
 
 
@@ -32,7 +32,7 @@ border-radius: 10%;
 .Contacts .centered h3 {
   position: absolute;
   top: 85%;
-  left: 40%;
+  left: 33%;
   transform: translate(-50%, -50%);
   font-size: 25px;
   text-align: right;
@@ -45,4 +45,5 @@ border-radius: 10%;
 .Contacts .centered h3 a{
   color: black;
   left:300px;
+  font-weight: 800;
 }
