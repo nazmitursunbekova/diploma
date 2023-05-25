@@ -27,9 +27,24 @@
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
  }
+ .About h5{
+   font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+ }
 .About p{
    font-weight: 600;
    font-size: 23px;
    text-align: center;
    font-family: 'Times New Roman', Times, serif; 
+
 }
+  .About .Cook .img{
+ height: 70%;
+      display: block;
+      flex-direction: column;
+      width: 50%;
+  
+  }
+  
