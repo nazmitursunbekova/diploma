@@ -24,6 +24,7 @@ export default function Auth() {
     );
   }
 
-  return <div className="Auth">{output}
-      <img src="https://i.pinimg.com/564x/5e/d6/39/5ed63905c998c5c3cd29f2ab3890ee2e.jpg" alt="" /></div>
+  return <div className="Auth">
+      <img onClick={logIn} src="https://i.pinimg.com/564x/5e/d6/39/5ed63905c998c5c3cd29f2ab3890ee2e.jpg" alt="" /></div>
+      
 }
