@@ -7,6 +7,10 @@
   justify-content: space-around;
   align-items: center;
   margin: 20px 0;
+
+}
+.CartList .CartItem img{
+  width: 15%;
 }
 .CartList .CartItem .Product_picture {
   width: 130px;
@@ -14,13 +18,8 @@
   border-radius: 3px;
   border: 1px solid grey;
 }
-.CategoryList ul a:hover {
-  transform: scale(1.1);
-  transition: 0.5s;
-}
-.CategoryList img:hover {
-  transform: scale(0.9);
-}
+
+
 .CartList .CartItem .Product_name {
   text-decoration: none;
   color:white;
