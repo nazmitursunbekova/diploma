@@ -22,12 +22,16 @@
   color: black;
   margin-bottom: 45px;
   margin-right: 150px;
+  font-size: 40px;
+  font-weight: 900;
 }
 .Delivery h4 {
   text-align: center;
   color: black;
   margin-bottom: 45px;
   margin-right: 150px;
+  font-size: 24px;
+  font-weight: 800;
 }
 
 .Delivery .Col-6 {
