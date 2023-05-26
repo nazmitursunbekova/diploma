@@ -1,4 +1,7 @@
-
+.About .Row{
+   display: flex;
+   padding-right: 200px;
+}
 .About h1 {
    font-weight: 600;
     font-size: 40px;
@@ -32,14 +35,37 @@
 
 
 .About-me img {
-   margin: 60px;
+   margin: 20px;
    width: 350px;
-   margin-top: 95px;
+   margin-top: 50px;
    display: flex;
    flex-wrap: wrap;
+   border-radius: 30px;
 }
+.About.Col-6 {
+display: block;
+   border-radius: 3px;
+   text-align: center;
+   margin-bottom: 25px;
+   font-family: "Times New Roman", Times, serif;
+   font-weight: 700;
+   font-size: 25px;
+   top: 50%;
+ }
+.About .Col-6 h1{
+   font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    top: 100%;
 
-
+ }
+.About .Col-6 p{
+   font-weight: 600;
+   font-size: 23px;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+}
 
 
 
