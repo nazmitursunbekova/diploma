@@ -5,7 +5,7 @@ export default function Home() {
       <h1>TECHNOLOGY AND INNAVATION</h1>
 
     <div className="home_imgs">
-      <div className="home_img"><img src="https://i.pinimg.com/564x/5d/ef/6f/5def6f97e71948be10b9fa7b8627f490.jpg"  /></div>
+      <div className="home_img"><img src="https://i.pinimg.com/564x/61/de/05/61de051db50ce5d20903ccee65e76da7.jpg"  /></div>
       <div className="home_img"><img src="https://i.pinimg.com/564x/84/e0/54/84e0540a22628568682036c616897b99.jpg" alt="" srcset="" /></div>
       <div className="home_img"><img src="https://i.pinimg.com/564x/63/95/11/6395113254ad8c09de654648c435073d.jpg" /></div>
     </div>
