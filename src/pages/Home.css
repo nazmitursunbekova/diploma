@@ -14,9 +14,31 @@
   margin-top: 20px;
 }
 .Home img{
-  width: 50%;
-  height: 300px;
- padding-left: 120px;
+  width: 60%;
+  border-radius: 40px;
+
 }
 
+.Home h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+  font-weight: 700;
 
+}
+.home_imgs{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.home_img img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.home_img{
+  width: calc((100% - 25px) / 2);
+  margin-bottom: 25px;
+}
+.home_img:first-child{
+  width: 100%;
+}
