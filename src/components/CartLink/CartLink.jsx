@@ -11,7 +11,7 @@ export default function CartLink() {
   return (
     <div className="CartLink">
       <Link to="/cart">
-Sign in({total})
+Cart ({total})
       </Link>
     </div>
   );
