@@ -4,7 +4,7 @@ import OrderForm from "../components/OrderFrom/OrderFrom";
 export default function Cart() {
   return (
     <div className="Cart">
-      <h1></h1>
+      <h1>YOUR PRODUCT</h1>
       <CartList/>
       <OrderForm/>
     </div>
