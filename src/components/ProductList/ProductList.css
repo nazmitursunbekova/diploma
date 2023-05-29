@@ -11,6 +11,8 @@
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  text-align: center;
+  
 }
 
 .ProductList .Product img {
@@ -46,17 +48,21 @@
   margin-top: -10px;
 }
 
-.Product .Product .name {
+.ProductList .Product .name {
   font-size: 20px;
   transition: 0.5s;
   font-weight: 800;
+  text-align: center;
+color: black;
 }
 
 .Name-img {
   position: relative;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
 }
 
-.Product-name {
+.Product .name {
   position: absolute;
   left: 10px;
   top: 6px;
@@ -73,7 +79,7 @@
   text-decoration: none;
 }
 
-.ProductList .Categoryyy {
+.ProductList .Category {
   text-decoration: none;
   display: flex;
   list-style-type: none;
@@ -87,7 +93,7 @@
 
 @media screen and (max-width: 600px) {
   .Categoryyy span {
-    color: rgb(177, 103, 103);
+    color: black;
     list-style-type: none;
     margin: 12px;
     font-size: 15px;
@@ -97,7 +103,7 @@
 
 @media screen and (max-width: 450px) {
   .Categoryyy span {
-    color: rgb(177, 103, 103);
+    color: black;
     list-style-type: none;
     margin: 7px;
     font-size: 10px;
