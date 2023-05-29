@@ -44,7 +44,7 @@ export default function About() {
               (Gold sign) for refrigerators; • Diploma title (Silver badge) for
               washing machines; As well as an additional distinction "New" in
               refrigerators and washing machines, which is issued to new
-              products in terms of technology and design.
+              products in terms of technology and design. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam nobis quae, ad laboriosam commodi excepturi dignissimos possimus asperiores facere fuga? Accusantium, non. Dolor, sunt. Earum, veritatis vero esse reiciendis voluptas fugiat quidem assumenda vitae  tag culpa maxime in expedita rerum accusamus consectetur aperiam inventore repellat? Officiis error rerum voluptatem, unde sed, illum tenetur nisi dolor doloremque minima exercitationem voluptatum ipsum sequi. Ducimus nisi eos neque architecto qui obcaecati eius quaerat culpa voluptatibus esse. Obcaecati unde hic, labore alias quidem nam nemo perspiciatis nulla modi doloremque est suscipit nihil aliquam cum fuga numquam temporibus, ratione maiores? Enim, magni quibusdam. Sint?
             </p>
           </div>
 
