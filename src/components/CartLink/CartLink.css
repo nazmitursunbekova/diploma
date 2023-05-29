@@ -1,11 +1,15 @@
-.CartLink img {
-  width: 80px;
+.CartLink img{
+  width: 20%;
+  padding-right: 20px;
+   
 }
 .CartLink a {
   text-decoration: none;
   font-size: 20px;
-  color: black;
+background-color: black;
   display: flex;
   align-items: center;
- 
+ color: white;
+ border-radius: 10px;
+
 }
