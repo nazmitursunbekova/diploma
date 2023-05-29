@@ -3,7 +3,6 @@ import { AppContext } from "../../App";
 import { Link } from "react-router-dom";
 import "./CartList.css";
 
-
 export default function CartList() {
   // получить продукты и содердижимое корзины
   const { products, cart, setCart } = useContext(AppContext);
@@ -25,7 +24,7 @@ export default function CartList() {
   const output = products
     .filter((product) => productIds.includes(product.id))
     .map((product) => (
-      <div className="CartItem">
+      <div className="CartItem" key={product.id}>
         <img
           className="Product_picture"
           src={product.picture}
@@ -42,6 +41,7 @@ export default function CartList() {
         />
         <span className="Product_price">
           {product.price * cart[product.id]} som{" "}
+          <button onClick={() => onRemoveClick(product)}>Remove</button>
         </span>
       </div>
     ));
