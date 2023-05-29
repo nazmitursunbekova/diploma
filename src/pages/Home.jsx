@@ -4,16 +4,21 @@ export default function Home() {
     <div className="Home">
       <h1>TECHNOLOGY AND INNAVATION</h1>
 
-    <div className="home_imgs">
-      <div className="home_img"></div>
-      <div className="home_img"><img src="https://i.pinimg.com/564x/84/e0/54/84e0540a22628568682036c616897b99.jpg" alt="" srcset="" /></div>
-      <div className="home_img"><img src="https://i.pinimg.com/564x/63/95/11/6395113254ad8c09de654648c435073d.jpg" /></div>
-      <div className="home_img"><img src="https://i.pinimg.com/564x/63/95/11/6395113254ad8c09de654648c435073d.jpg" /></div>
-    </div>
-      
-      
-      
-
+      <div className="home_imgs">
+        <div className="home_img home_img__big">
+          <img
+            src="https://www.remontbp.com/wp-content/uploads/2022/02/4-14-1500x1000.jpg"
+            alt=""
+            srcSet=""
+          />
+        </div>
+        <div className="home_img">
+          <img src="https://www.remontbp.com/wp-content/uploads/2022/02/6-14.jpg" />
+        </div>
+        <div className="home_img">
+          <img src="https://www.remontbp.com/wp-content/uploads/2022/02/12-14.jpg" />
+        </div>
+      </div>
 
       <h2>
         The technologies of the future are developments that pursue a specific
@@ -21,12 +26,6 @@ export default function Home() {
         transmit data faster than the wheels turn. This is a 3D printed bridge
         over a medieval canal.
       </h2>
-
-
-
-
-
-
     </div>
   );
 }
