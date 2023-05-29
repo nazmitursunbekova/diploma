@@ -1,16 +1,29 @@
 .CategoryList{
 display: block;
 padding-left: 50px;
-
+ 
 }
+
+.category {
+  padding: 10px;
+  margin: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+
+  justify-content: center;
+ 
+}
+
+
+
 .CategoryList ul li a {
 text-align: start;
   text-decoration: none;
   font-weight: 900;
   color:black;
   font-size: 22px;
-  display: flex;
-  
+  display: block;
+  border: 1px  solid black;
   margin: 10px;
 
 }
@@ -62,7 +75,7 @@ font-family: 'Times New Roman', Times, serif;
 }
 
 .CategoryList .Category {
-  display: flex;
+
   flex-direction: column;
   margin: 13px;
   text-align: center;
@@ -74,7 +87,7 @@ font-family: 'Times New Roman', Times, serif;
 
 .Category {
   color:  black;
-  display: block;
+
   text-align: center;
   margin-right: 50px;
   
