@@ -7,14 +7,17 @@ import Category from "./pages/Category";
 import About from "./pages/About";
 import { createContext, useEffect, useState } from "react";
 
-import { onAuthChange, onCategoriesLoad, onOrdersLoad, onProductsLoad } from "./firebase";
+import {
+  onAuthChange,
+  onCategoriesLoad,
+  onOrdersLoad,
+  onProductsLoad,
+} from "./firebase";
 import Cart from "./pages/Cart";
 import NotFound from "./pages/NotFound";
 import Product from "./pages/Product";
 import ThankYou from "./pages/ThankYou";
 import Orders from "./pages/Orders";
-
-
 
 export const AppContext = createContext({
   categories: [],
@@ -44,9 +47,9 @@ export default function App() {
   }, [cart]);
 
   useEffect(() => {
-   onCategoriesLoad(setCategories);
-  onProductsLoad(setProducts);
-  onOrdersLoad(setOrders);
+    onCategoriesLoad(setCategories);
+    onProductsLoad(setProducts);
+    onOrdersLoad(setOrders);
 
     onAuthChange((user) => {
       if (user) {
@@ -58,14 +61,14 @@ export default function App() {
 
   return (
     <div className="App">
-           
-      <AppContext.Provider value={{ categories, products, cart, setCart, user, orders }}>
+      <AppContext.Provider
+        value={{ categories, products, cart, setCart, user, orders }}
+      >
         <Layout>
-    
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/contacts" element={< Contacts/>} />
-            <Route path="/delivery" element={<Delivery/>} />
+            <Route path="/contacts" element={<Contacts />} />
+            <Route path="/delivery" element={<Delivery />} />
             <Route path="/about" element={<About />} />
             <Route path="/category/:path" element={<Category />} />
             <Route path="/product/:path" element={<Product />} />
