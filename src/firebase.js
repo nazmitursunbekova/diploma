@@ -1,7 +1,13 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { collection, getFirestore, onSnapshot } from "firebase/firestore";
-import { GoogleAuthProvider, getAuth, onAuthStateChanged, signInWithPopup, signOut } from "firebase/auth";
+import {
+  GoogleAuthProvider,
+  getAuth,
+  onAuthStateChanged,
+  signInWithPopup,
+  signOut,
+} from "firebase/auth";
 import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
 
 // Your web app's Firebase configuration
@@ -11,7 +17,7 @@ const firebaseConfig = {
   projectId: "diplom-c7f5a",
   storageBucket: "diplom-c7f5a.appspot.com",
   messagingSenderId: "702508752217",
-  appId: "1:702508752217:web:e05f2c6b0d52ea3fb3c048"
+  appId: "1:702508752217:web:e05f2c6b0d52ea3fb3c048",
 };
 
 // Initialize Firebase
@@ -21,9 +27,9 @@ const auth = getAuth(app);
 export const storage = getStorage(app);
 
 // получить список категорий (коллекция документов).
-export const categoryCollection = collection(db, 'categories');
-export const productCollection = collection(db, 'products');
-export const orderCollection = collection(db, 'orders');
+export const categoryCollection = collection(db, "categories");
+export const productCollection = collection(db, "products");
+export const orderCollection = collection(db, "orders");
 
 const provider = new GoogleAuthProvider();
 export const logIn = () => signInWithPopup(auth, provider);
@@ -57,8 +63,6 @@ export const onOrdersLoad = (callback) =>
       }))
     )
   );
-
-
 
 // отправка фотографии и получение ее url
 export const uploadProductPhoto = (file) => {
